@@ -91,7 +91,6 @@ describe('<MovieCard /> component', () => {
     expect(wrapper.find('h5').text()).toBe('Movie Subtitle 1');
   });
 
-
   it('renders the movie storyline inside a `p` tag', () => {
     wrapper = shallow(<MovieCard movie={movie} />);
 
